@@ -1,9 +1,10 @@
 function filterArray(numbers, value) {
   const filteredArray = [];
   for (let i = 0; i < numbers.length; i++) {
-    const num = numbers[i];
-    if (num > value) filteredArray.push(num);
+    const element = numbers[i];
+    if (element > value) filteredArray.push(num);
   }
+
   return filteredArray;
 }
 
